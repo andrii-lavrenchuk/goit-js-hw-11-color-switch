@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
 *,
 *::before,
 *::after {
@@ -14,7 +16,7 @@ body {
 button {
   display: inline-block;
   margin: 10px;
-  border: 1px solid #ff6c00;
+  border: 3px solid #ff6c00;
   background-color: #fff;
 
   border-radius: 25px;
@@ -22,8 +24,10 @@ button {
   height: 40px;
   padding: 0px;
 
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 24px;
+  font-family: 'Henny Penny', cursive;
+
+  font-weight: 700;
   color: #303030;
 }
 
@@ -39,5 +43,8 @@ button:hover {
 button:disabled {
   cursor: none;
   color: #303030;
-  background-color: red;
+  background-color: rgb(216, 15, 15);
+  border: 3px solid rgb(216, 15, 15);
+
+  box-shadow: none;
 }
